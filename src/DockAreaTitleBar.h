@@ -53,7 +53,7 @@ using tTitleBarButton = QToolButton;
 * CDockManager::DockAreaHas_xxx_Button - if set to 'false' keeps the button always invisible
 * CDockManager::DockAreaHideDisabledButtons - if set to 'true' hides button when it is disabled
 */
-class CTitleBarButton : public tTitleBarButton
+class ADS_EXPORT CTitleBarButton : public tTitleBarButton
 {
 	Q_OBJECT
 

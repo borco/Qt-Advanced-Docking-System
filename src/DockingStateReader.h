@@ -12,13 +12,15 @@
 //============================================================================
 #include <QXmlStreamReader>
 
+#include "ads_globals.h"
+
 namespace ads
 {
 
 /**
  * Extends QXmlStreamReader with file version information
  */
-class CDockingStateReader : public QXmlStreamReader
+class ADS_EXPORT CDockingStateReader : public QXmlStreamReader
 {
 private:
 	int m_FileVersion;

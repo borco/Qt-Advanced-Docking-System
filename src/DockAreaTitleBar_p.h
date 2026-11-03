@@ -47,7 +47,7 @@ namespace ads
 * into a floating widget, then mouse events are not handled anymore and dragging
 * of the floating widget stops.
 */
-class CSpacerWidget : public QWidget
+class ADS_EXPORT CSpacerWidget : public QWidget
 {
 	Q_OBJECT
 public:
